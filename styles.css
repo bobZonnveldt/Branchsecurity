@@ -1,0 +1,35 @@
+.ohio {
+    outline : 5px solid red;
+    outline-offset : 10px;
+    width : 300px;
+    height : auto;
+    display : block;
+    margin : 20px auto;
+    border-radius : 15px;
+    box-shadow : 0 4px 8px rgb(255, 0, 212);
+    transition : transform 0.3s, box-shadow 0.3s;
+}
+.futa {
+    background-color : #f800c2;
+    color : #000000;
+    text-align : center;
+    padding : 15px;
+    font-family : 'Arial', sans-serif;
+    font-size : 18px;
+    border-top : 2px solid #fa0000;
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 2 / 2 / 3 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }
+.div4 { grid-area: 3 / 3 / 4 / 4; }
+.div5 { grid-area: 3 / 1 / 4 / 2; }
+.div6 { grid-area: 4 / 2 / 5 / 3; }
+.div7 { grid-area: 5 / 2 / 6 / 3; }
